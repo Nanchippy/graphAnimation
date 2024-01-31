@@ -1,0 +1,65 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    flex-direction: column-reverse;
+}
+
+div{
+    margin-top: 25px;
+}
+
+#container {
+    display: flex;
+    width: 570px;
+    height: 145px;
+    border: 7px solid #2c2626;
+    position: relative;
+    justify-content: space-between;
+    align-content: stretch;
+    align-items: flex-end;
+    background-color: #282121;
+}
+
+.bar {
+    flex: 1;
+    height: 145px;
+    transition: height 0.4s;
+}
+
+#bar1{
+     background-color: #8439bd; 
+}
+#bar2 {
+     background-color: rgb(209, 69, 186); 
+    }
+#bar3 {
+     background-color: rgb(245, 105, 105);
+     }
+#bar4 {
+     background-color: rgb(216, 111, 42); 
+    }
+#bar5 { 
+    background-color: rgb(240, 214, 97);
+ }
+
+#button{
+    margin-right: 20px;
+    color: white;
+    border-style: none;
+    width: 85px;
+    height: 25px;
+    cursor: pointer;
+}
+.start{
+    background-color: rgb(11, 156, 11);
+}
+.reset{
+    background-color: #8f55bb;
+
+}
+.stop{
+    background-color: rgb(231, 52, 52);
+}
